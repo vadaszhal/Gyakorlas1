@@ -76,6 +76,7 @@ const generateTable = (data = []) => {
 };
 getAll().then(data => generateTable(data));//1.rész
 
+
 //csak intervallum lekérdezése
 //const startIndex = 5;
 //const endIndex = 10;
