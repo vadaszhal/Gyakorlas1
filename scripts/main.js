@@ -75,3 +75,21 @@ const generateTable = (data = []) => {
     });
 };
 getAll().then(data => generateTable(data));//1.rész
+
+//csak intervallum lekérdezése
+//const startIndex = 5;
+//const endIndex = 10;
+
+//getAll().then(data => {
+//    const intervalData = data.slice(startIndex, endIndex);
+//    generateTable(intervalData);
+//});
+//konkrét sorok lekérdezése
+//const selectedIndices = [5, 10, 15, 25];
+
+//getAll().then(data => {
+//    const intervalData = selectedIndices
+//        .map(index => data[index])
+//        .filter(row => row !== undefined);
+//    generateTable(intervalData);
+//});
