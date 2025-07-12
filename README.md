@@ -1,0 +1,1 @@
+Gyakorlás a bootstrap használatára.
